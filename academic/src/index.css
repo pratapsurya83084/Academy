@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.radius-yellow{
+    border: solid yellow;
+}
+/* Newsfeature.css */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+@keyframes move-x {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(10px);
+    }
+  }
+  
+  @keyframes move-x-reverse {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  .animate-move-x {
+    animation: move-x 2s infinite alternate;
+  }
+  
+  .animate-move-x-reverse {
+    animation: move-x-reverse 2s infinite alternate;
+  }

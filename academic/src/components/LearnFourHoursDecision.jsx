@@ -27,7 +27,7 @@ const LearnFourHoursDecision = () => {
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-10">
           {/* card 1 */}
           <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="md:text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               01
             </div>
             <div className="font-normal px-4 py-7 mt-4">

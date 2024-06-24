@@ -18,10 +18,34 @@ body{
   display: none !important;
 }
 
+/* footer text blinking 1 second each */
+.blinking {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the footer stays on top */
+}
+
 @keyframes move-x {
     0% {
       transform: translateX(0);
-    }
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
     100% {
       transform: translateX(10px);
     }

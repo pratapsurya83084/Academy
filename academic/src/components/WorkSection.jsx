@@ -54,6 +54,7 @@ const WorkSection = () => {
             </div>
           </div>
           {/* Action Button */}
+         <a href="https://rzp.io/l/badecisionmc">
           <div className="lg:hidden block">
             <button className="flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-sm md:text-2xl rounded-2xl relative focus:border">
               Action Now with ₹299
@@ -62,6 +63,7 @@ const WorkSection = () => {
               </span>
             </button>
           </div>
+          </a>
         </div>
       </div>
 
@@ -141,14 +143,16 @@ const WorkSection = () => {
         </div>
 
         {/* Action Button for Mobile */}
-        <div className="hidden lg:flex w-full">
+        <a href="https://rzp.io/l/badecisionmc" className="hidden lg:flex w-full">
+        {/* <div className=""> */}
           <button className="flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-xl md:text-2xl rounded-2xl relative focus:border">
             Action Now with ₹299
             <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
               <FontAwesomeIcon icon={faGreaterThan} />
             </span>
           </button>
-        </div>
+        {/* </div> */}
+        </a>
       </div>
     </div>
   );

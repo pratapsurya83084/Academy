@@ -236,6 +236,7 @@ const TestimonialParticipant = () => {
           </div>
         </div>
                {/* action now button */}
+               <a href="https://rzp.io/l/badecisionmc">
         <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
           <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
@@ -245,7 +246,7 @@ const TestimonialParticipant = () => {
             />
           </button>
         </div>
-
+</a>
         {/* Blue polygon image
          <img
             className=" anima rounded-3xlte-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"

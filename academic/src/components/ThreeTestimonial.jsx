@@ -111,6 +111,7 @@ const ThreeTestimonial = () => {
         </section>
 
         {/* action now button */}
+        <a href="https://rzp.io/l/badecisionmc">
         <div className="m-2 flex justify-center mt-4 sm:mt-4 mb-20 py-2 sm:px-2">
           <button className="bg-blue-600 text-white sm:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
@@ -120,6 +121,7 @@ const ThreeTestimonial = () => {
             />
           </button>
         </div>
+        </a>
       </div>
     </section>
   );

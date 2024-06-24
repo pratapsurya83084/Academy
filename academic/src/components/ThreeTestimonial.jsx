@@ -34,7 +34,7 @@ const ThreeTestimonial = () => {
         {/* add 3 cards */}
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-10 mx-auto">
-            <div class="flex flex-col   md:flex-row justify-center mx-2 md:mx-0 -m-4 gap-6">
+            <div class="flex flex-col   md:flex-row justify-center mx-1 sm:mx-10 md:mx-0 -m-4 gap-6">
               {/* card-1 */}
               <div class="p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">
                 <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative flex flex-col items-center">
@@ -45,7 +45,7 @@ const ThreeTestimonial = () => {
                     (Just at 5 Months)
                   </h1>
                   <img class="h-56" src="public\mony_img1.png" alt="" />
-                  <h5 class="p-3 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 class="p-2 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
                     Startup
                   </h5>
                   <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">

@@ -26,9 +26,9 @@ const TestimonialParticipant = () => {
           </svg>
         </div>
         {/* section-29 */}
-        <div className=" justify-center items-center  grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 gap-10 mx-4 ">
-          {/* cards 1 */}
-          <div className=" p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+        <div className=" justify-center  grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 gap-10 mx-4 ">
+          {/* cards 1 max-w-sm */}
+          <div className=" p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl mt-2"
               src="\public\Screenshot 2024-06-21 085545.png"
@@ -50,8 +50,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 2 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 2  max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\Olivia Watson England.jpeg"
@@ -73,8 +73,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 3 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 3 max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="public\Aisha Al Mansouri UAE .png"
@@ -96,8 +96,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 4 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 4  max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\Anna Ivanova Russia .jpeg"
@@ -119,8 +119,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 5 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 5 max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\Max Müller Germany.jpg"
@@ -142,8 +142,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 6 */}
-          <div className="p-2  radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 6 max-w-sm*/}
+          <div className="p-2  radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\Priya Patel India .jpeg"
@@ -165,8 +165,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 7 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 7 max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\James Smith England.jpeg"
@@ -188,8 +188,8 @@ const TestimonialParticipant = () => {
             </p>
           </div>
 
-          {/* cards 8 */}
-          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+          {/* cards 8 max-w-sm*/}
+          <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="/public\Elena Volkova  Russia.png"
@@ -213,8 +213,8 @@ const TestimonialParticipant = () => {
           </div>
 
 
-           {/* cards 9 */}
-           <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+           {/* cards 9 max-w-sm*/}
+           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
               src="\public\9th_testimonial_img.jpg"
@@ -237,7 +237,7 @@ const TestimonialParticipant = () => {
         </div>
                {/* action now button */}
         <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
-          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+          <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}

@@ -38,7 +38,7 @@ const OurGaurantee = () => {
                 Our Guarantee
               </h1>
               <p className="md:text-xl lg:text-2xl">
-                Take advantage of this incredible offer now for only Rs 99, with
+                Take advantage of this incredible offer now for only Rs 299, with
                 a money-back <br />
                 guarantee included. Enroll today, attend our seminar, and if
                 you're not satisfied for any reason, <br /> just send us an

@@ -30,7 +30,7 @@ const Promise = () => {
             />
           </svg>
         </div>
-        <p className="text-center font-bold p-2">
+        <p className="text-center md:text-xl font-bold p-2">
           I stand behind our seminars with a no-questions-asked money-back
           guarantee.
         </p>
@@ -38,7 +38,7 @@ const Promise = () => {
 
       <div className="p-4">
         <h1>Dear Sir/Madam,</h1> <br />
-        <p className=''>
+        <p className='md:text-xl'>
           {" "}
           I am dedicated to supporting your business growth journey and
           sharing invaluable insights that have positively impacted over

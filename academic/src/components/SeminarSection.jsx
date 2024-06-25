@@ -22,7 +22,7 @@ const SeminarSection = () => {
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           Individuals with startup ventures or established <br /> businesses
           </p>
         </div>
@@ -30,7 +30,7 @@ const SeminarSection = () => {
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           Owners of small enterprises seek to make informed decisions that lead to <br />
            increased profitability and scalability.
           </p>
@@ -39,7 +39,7 @@ const SeminarSection = () => {
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           Executives, managers, and professionals in corporate settings looking to <br />
            enhance their leadership and decision-making skills
 
@@ -49,7 +49,7 @@ const SeminarSection = () => {
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           Executives, managers, and professionals in corporate settings looking to enhance their leadership and decision-making skills.
           </p>
         </div>
@@ -69,7 +69,7 @@ const SeminarSection = () => {
     </div>
           </div>
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           If You Are Not Resistant To Adopting New Strategies
           </p>
         </div>
@@ -82,7 +82,7 @@ const SeminarSection = () => {
         <span className="sr-only">Error icon</span>
     </div>
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           If You Are Not a Leader
           </p>
         </div>
@@ -98,7 +98,7 @@ const SeminarSection = () => {
     </div>
           </div>
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           If You Are Not Serious About Your Business
           </p>
         </div>
@@ -113,7 +113,7 @@ const SeminarSection = () => {
     </div>
           </div>
           </div>
-          <p className="p-1 md:p-3">
+          <p className="p-3 md:p-3">
           If You Are Not Unwilling To Engage In Active Learning and Implementation
           </p>
         </div>

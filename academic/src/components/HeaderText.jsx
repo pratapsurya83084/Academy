@@ -6,7 +6,7 @@ const HeaderText = () => {
       <div className="text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Transform Your Business into a 
-          <span className="">
+          <span className="px-2">
             <b className="text-yellow-200 text-center">Crore-Earning</b>
           </span> <br />
           Enterprise

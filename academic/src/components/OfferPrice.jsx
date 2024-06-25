@@ -32,11 +32,11 @@ const OfferPrice = () => {
     <section className=" py-8">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="text-center">
-          <h3 className="text-xl lg:text-2xl font-bold mt-4 lg:mt-20 p-3">Total Value ₹9,468/-</h3>
+          <h3 className="text-xl lg:text-2xl font-bold mt-4 lg:mt-20 p-3">Total Value ₹9468/-</h3>
         </div>
 
         <div className="text-center">
-          <h2 className="text-2xl lg:text-3xl font-bold p-2">Regular Price: ₹2,499/-</h2>
+          <h2 className="text-2xl lg:text-3xl font-bold p-2">Regular Price: ₹2499/-</h2>
         </div>
 
         <div className="text-center">

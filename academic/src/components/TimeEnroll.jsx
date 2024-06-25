@@ -30,18 +30,53 @@ const TimeEnroll = () => {
 
   // To show the date and day for the 15th day from the current date, you can modify the JavaScript code as follows:
 
-  const currentDate = new Date();
-  const futureDate = new Date();
-  futureDate.setDate(currentDate.getDate() + 16);
+  const [displayDate, setDisplayDate] = useState('');
 
-  const options = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  };
-  const formattedDate = futureDate.toLocaleDateString("en-US", options);
+  useEffect(() => {
+    const updateDateDisplay = () => {
+      const today = new Date();
+      let targetDate = new Date('2024-07-07');
 
+      // If the current date is past the target date, update the target date to the next 15 days increment
+      while (today > targetDate) {
+        targetDate.setDate(targetDate.getDate() + 15);
+      }
+
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const formattedDate = targetDate.toLocaleDateString(undefined, options);
+
+      setDisplayDate(formattedDate);
+    };
+
+    updateDateDisplay();
+
+    // Calculate the time until the next update (15 days)
+    const now = new Date();
+    const initialTargetDate = new Date('2024-07-07');
+    let nextUpdateDate = new Date(initialTargetDate);
+
+    // Increment the nextUpdateDate by 15 days until it's in the future
+    while (now > nextUpdateDate) {
+      nextUpdateDate.setDate(nextUpdateDate.getDate() + 15);
+    }
+
+    const timeToNextUpdate = nextUpdateDate - now;
+
+    // Set a timeout for the first update
+    const timeoutId = setTimeout(() => {
+      updateDateDisplay();
+
+      // Set an interval to update the date display every 15 days
+      const intervalId = setInterval(updateDateDisplay, 15 * 24 * 60 * 60 * 1000);
+
+      // Clear the timeout and return the interval cleanup function
+      clearTimeout(timeoutId);
+      return () => clearInterval(intervalId);
+    }, timeToNextUpdate);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
+  
   return (
     <div className="container mx-auto flex flex-col items-center justify-center h-full">
       <div className="text-center">
@@ -56,7 +91,7 @@ const TimeEnroll = () => {
         </div>
         <div>
           <h1 className="text-red-500 font-bold p-2">
-            STARTS ON {formattedDate} (8:00 AM)
+            STARTS ON {displayDate} (8:00 AM)
           </h1>
         </div>
         <div>

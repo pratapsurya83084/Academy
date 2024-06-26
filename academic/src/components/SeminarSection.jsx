@@ -122,17 +122,17 @@ const SeminarSection = () => {
         </div>
         {/* section -21 */}
                {/* action now button */}
-               <a href="https://rzp.io/l/badecisionmc">
+
         <div className="flex justify-center mt-8 sm:mt-8 py-2 p-4 sm:px-2 mb-7">
-          <button className="bg-blue-600 text-white sm:text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+        <a href="https://rzp.io/l/badecisionmc">  <button className="bg-blue-600 text-white sm:text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}
               className="bg-white text-blue-500 px-4 p-2 rounded-lg"
             />
-          </button>
+          </button> </a>
         </div>
-        </a>
+       
           
       </section>
     </div>

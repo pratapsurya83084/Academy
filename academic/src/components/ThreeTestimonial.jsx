@@ -44,7 +44,7 @@ const ThreeTestimonial = () => {
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     (Just at 5 Months)
                   </h1>
-                  <img class="h-56" src="public\mony_img1.png" alt="" />
+                  <img class="h-56" src="\mony_img1.png" alt="" />
                   <h5 class="p-2 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
                     Startup
                   </h5>
@@ -69,7 +69,7 @@ const ThreeTestimonial = () => {
                   </h1>
                   <img
                     class="h-52 rounded-3xl"
-                    src="public\Growth_Increase.jpg"
+                    src="\Growth_Increase.jpg"
                     alt=""
                   />
                   <h5 class="p-3 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
@@ -93,7 +93,7 @@ const ThreeTestimonial = () => {
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     (just 6 Months){" "}
                   </h1>
-                  <img class="h-56" src="\public\self_growth_img.png" alt="" />
+                  <img class="h-56" src="\self_growth_img.png" alt="" />
                   <h5 class="p-3 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
                     Freelancer Design and Content Strategies
                   </h5>

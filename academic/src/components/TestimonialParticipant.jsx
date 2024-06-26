@@ -31,7 +31,7 @@ const TestimonialParticipant = () => {
           <div className=" p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl mt-2"
-              src="\public\Screenshot 2024-06-21 085545.png"
+              src="\Screenshot 2024-06-21 085545.png"
               alt=""
             />
             <p className="text-center">
@@ -54,15 +54,19 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Olivia Watson England.jpeg"
+              src="\Olivia Watson England.jpeg"
               alt=""
             />
             <p className="text-center">
-              Excellent. I am thankful to Mr. Rajiv as he has given me so much
-              insight into the Business. He is working as a Catalyst in the liv
-              es of Small and Medium scale Entrepreneurs who are the backbone of
-              the economy of our country. Thanks a lot to him. Thanks to Success
-              Gyan.
+            The Bishop Adhikari course was truly
+             transformative. It provided me with profound 
+             insights and practical tools that I have
+              seamlessly integrated into my daily life.
+               The clarity and depth of the teachings were 
+               exceptional. I highly recommend this course 
+               to anyone seeking personal and spiritual growth.
+
+
             </p>
 
             <p className="bg-custom-gray mb-4 px-4 mx-2  radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
@@ -77,7 +81,7 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="public\Aisha Al Mansouri UAE .png"
+              src="\Aisha Al Mansouri UAE .png"
               alt=""
             />
             <p className="text-center">
@@ -100,7 +104,7 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Anna Ivanova Russia .jpeg"
+              src="\Anna Ivanova Russia .jpeg"
               alt=""
             />
             <p className="text-center">
@@ -123,7 +127,7 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Max Müller Germany.jpg"
+              src="\Max Müller Germany.jpg"
               alt=""
             />
             <p className="text-center">
@@ -146,7 +150,7 @@ const TestimonialParticipant = () => {
           <div className="p-2  radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Priya Patel India .jpeg"
+              src="\Priya Patel India .jpeg"
               alt=""
             />
             <p className="text-center">
@@ -169,7 +173,7 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\James Smith England.jpeg"
+              src="\James Smith England.jpeg"
               alt=""
             />
             <p className="text-center">
@@ -192,7 +196,7 @@ const TestimonialParticipant = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Elena Volkova  Russia.png"
+              src="\Elena Volkova  Russia.png"
               alt=""
             />
             <p className="text-center">
@@ -217,7 +221,7 @@ const TestimonialParticipant = () => {
            <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="\public\9th_testimonial_img.jpg"
+              src="\9th_testimonial_img.jpg"
               alt=""
             />
             <p className="text-center">
@@ -236,17 +240,17 @@ const TestimonialParticipant = () => {
           </div>
         </div>
                {/* action now button */}
-               <a href="https://rzp.io/l/badecisionmc">
+              
         <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
-          <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+        <a href="https://rzp.io/l/badecisionmc">  <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}
               className="bg-white text-blue-500 px-4 p-2 rounded-lg"
             />
-          </button>
+          </button></a>
         </div>
-</a>
+
         {/* Blue polygon image
          <img
             className=" anima rounded-3xlte-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"

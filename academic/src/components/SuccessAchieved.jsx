@@ -11,7 +11,7 @@ const SuccessAchieved = () => {
         <div className="radius-yellow flex flex-col rounded-xl overflow-hidden shadow-lg">
           <img
             className="w-full h-auto"
-            src="\public\EmailSection_1.png"
+            src="\EmailSection_1.png"
             alt="Image 1"
           />
         </div>
@@ -20,7 +20,7 @@ const SuccessAchieved = () => {
         <div className="radius-yellow  flex flex-col rounded-xl overflow-hidden shadow-lg">
           <img
             className="w-full h-auto"
-            src="\public\Emailsection2_1.png"
+            src="\Emailsection2_1.png"
             alt="Image 2"
           />
         </div>
@@ -29,7 +29,7 @@ const SuccessAchieved = () => {
         <div className=" radius-yellow  flex flex-col rounded-xl overflow-hidden shadow-lg">
           <img
             className="w-full h-auto"
-            src="\public\ProductLaunch.png"
+            src="\ProductLaunch.png"
             alt="Image 3"
           />
         </div>
@@ -38,7 +38,7 @@ const SuccessAchieved = () => {
         <div className="radius-yellow  flex flex-col rounded-xl overflow-hidden shadow-lg">
           <img
             className="w-full h-auto"
-            src="\public\HighScaleTicket.png"
+            src="\HighScaleTicket.png"
             alt="Image 4"
           />
         </div>

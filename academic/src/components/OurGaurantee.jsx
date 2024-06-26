@@ -32,41 +32,42 @@ const OurGaurantee = () => {
             Our Guarantee
           </h2>
 
-          <div className=" md:flex flex-row justify-center items-center gap-20">
-            <div className="px-10">
-              <h1 className="py-2 hidden md:flex font-bold text-2xl">
-                Our Guarantee
-              </h1>
-              <p className="md:text-xl lg:text-2xl">
-                Take advantage of this incredible offer now for only Rs 299, with
-                a money-back <br />
-                guarantee included. Enroll today, attend our seminar, and if
-                you're not satisfied for any reason, <br /> just send us an
-                email, and we'll refund your entire payment—no questions asked!
-              </p>
-            </div>
+        
 
-            <div className="py-10 flex items-center justify-center">
-              <img
-                className="md:w-full w-[300px] h-[200px]"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/360_F_52353227_QN4uFwGBnLfLtZzAxacByJujbzneuGMB-removebg-preview.png"
-                alt=""
-              />
-            </div>
-          </div>
+
+
+<div class="md:flex flex-row justify-center items-center gap-20">
+  <div class="px-3">
+    <h1 class="py-2 p-2 hidden md:flex font-bold text-2xl">
+      Our Guarantee
+    </h1>
+    <p class="md:text-xl p-2  lg:text-2xl">
+      Take advantage of this incredible offer now for only Rs 299, with a money-back 
+      guarantee included. Enroll today, attend our seminar, and if you're not satisfied 
+      for any reason, just send us an email, and we'll refund your entire payment—no 
+      questions asked!
+    </p>
+  </div>
+
+  <div class="py-10 flex justify-center">
+    <img class=" w-64 md:w-[700px] h-auto" 
+         src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/360_F_52353227_QN4uFwGBnLfLtZzAxacByJujbzneuGMB-removebg-preview.png" 
+         alt="Clear Image"/>
+  </div>
+</div>
         </div>
         {/* action now button */}
-        <a href="https://rzp.io/l/badecisionmc">
+        
         <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
-          <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+        <a href="https://rzp.io/l/badecisionmc"> <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
             <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}
               className="bg-white text-blue-500 px-4 p-2 rounded-lg"
             />
-          </button>
+          </button>    </a>
         </div>
-        </a>
+    
       {/* </div> */}
     </section>
   );

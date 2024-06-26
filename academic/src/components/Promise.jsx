@@ -46,14 +46,14 @@ const Promise = () => {
           seminars receives more value than they anticipated. If, for any
           reason, you attend our seminar and feel that you haven't gained the
           expected value, I take full responsibility. Therefore, I promise a
-          complete refund of the seminar fee of Rs 99. Simply email me at 
+          complete refund of the seminar fee of Rs 299. Simply email me at 
           {/* px-2 */}
-         <span className=" text-yellow-200">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
+         <span className=" text-yellow-200 ml-2">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
           your refund.
         </p>
         <p className="mt-10">Best Regards,<br />
          Bishop Adhikari</p>
-        <img  className="h-[60px] mt-2 w-[140px]" src="\public\Screenshot 2024-06-24 122629.png" alt="" />
+        <img  className="h-[60px] mt-2 w-[140px]" src="\Screenshot 2024-06-24 122629.png" alt="" />
       </div>
     </div> 
   </section>

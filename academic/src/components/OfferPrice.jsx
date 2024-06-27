@@ -29,10 +29,10 @@ const OfferPrice = () => {
   const seconds = totalSeconds % 90;
 
   return (
-    <section className=" py-8">
+    <section className=" py-0">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="text-center">
-          <h3 className="text-xl lg:text-2xl font-bold mt-4 lg:mt-20 p-3">Total Value ₹9468/-</h3>
+          <h3 className="text-xl lg:text-2xl font-bold mt- lg:mt-10 p-3">Total Value ₹9468/-</h3>
         </div>
 
         <div className="text-center">
@@ -54,8 +54,8 @@ const OfferPrice = () => {
             SECONDS
           </div>
         </div>
-        <a href="https://rzp.io/l/badecisionmc">
-        <div className="flex justify-center mt-8">
+        <a href="https://rzp.io/l/badecisionmc" className='mb-10'>
+        <div className="flex justify-center mt-8 ">
           <button className="bg-blue-600 text-white text-lg sm:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center space-x-2">
             <span>Action Now for ₹299</span>
             <FontAwesomeIcon icon={faGreaterThan} className="text-blue-500 bg-white p-2 px-3 rounded" />

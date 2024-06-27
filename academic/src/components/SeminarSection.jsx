@@ -50,7 +50,7 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-3 md:p-3">
-          Executives, managers, and professionals in corporate settings looking to enhance their leadership and decision-making skills.
+          Entrepreneurs seeking advice on cost-effective marketing strategies to boost revenue
           </p>
         </div>
           </div>

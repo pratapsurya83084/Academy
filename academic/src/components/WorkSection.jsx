@@ -14,7 +14,7 @@ const WorkSection = () => {
         <div className=" w-full  lg:ml-[250px] lg:w-auto xl:ml-10  lg:mb-0">
           {/* overflow-hidden */}
           <div className="workshop-left-section lg:h-[400px] lg:w-[500px]  relative">
-            <h1 className="text-black animate-move-x-reverse sm:ml-5 text-4xl sm:text-5xl absolute right-40 left-10 sm:right-96 md:right-96 xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:text-6xl lg:ml-2 font-bold">
+            <h1 className="text-black animate-move-x-reverse mt-1  sm:ml-5 text-4xl sm:text-5xl absolute right-40 left-10 sm:right-96 md:right-96 xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:text-6xl lg:ml-2 font-bold">
               Bishop
             </h1>
             <img

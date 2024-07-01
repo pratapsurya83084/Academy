@@ -18,11 +18,12 @@ const Heading = () => {
       {/* Yellow Image */}
       <div className="absolute top-2 right-0  transform -translate-y-1/2 mt-4 animate-move-x">
         <img
-          className="w-16 md:w-24 lg:w-32 m-2 h-7"
+          className="w-16 md:w-24 lg:w-32 m-2  h-7"
           src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
           alt="Polygon Green"
         />
       </div>
+      
       
     </div>
   );

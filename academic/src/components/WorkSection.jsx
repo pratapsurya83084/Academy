@@ -1,19 +1,50 @@
-import React from "react";
+import React ,{useEffect,useRef} from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 import ReactStars from "react-stars";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const WorkSection = () => {
+  
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <div className="container xl:flex gap-10 px-5 py-10 mx-auto ">
+    <section 
+    ref={sectionRef}
+    className="container xl:flex gap-10 px-5 py-10 mx-auto ">
       {/* Left Section - Image and Text */}
       {/* lg:w-4/5 */}
       <div className=" mx-auto  items-center justify-center lg:justify-between">
         {/* mb-10 */}
         <div className=" w-full  lg:ml-[250px] lg:w-auto xl:ml-10  lg:mb-0">
           {/* overflow-hidden */}
-          <div className="workshop-left-section lg:h-[400px] lg:w-[500px]  relative">
+          <div className="smooth-scroll workshop-left-section lg:h-[400px] lg:w-[500px]  relative">
             <h1 className="text-black animate-move-x-reverse mt-1  sm:ml-5 text-4xl sm:text-5xl absolute right-40 left-10 sm:right-96 md:right-96 xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:text-6xl lg:ml-2 font-bold">
               Bishop
             </h1>
@@ -32,22 +63,22 @@ const WorkSection = () => {
         {/* box */}
         <div className="w-full lg:mt-24 ">
           <div className="left-text-section radius-yellow bg-custom-brown text-xl p-2 rounded-3xl">
-            <div className="w-full text-center p-3">
-              <span className="font-bold">
+            <div className="smooth-scroll w-full text-center p-3">
+              <span className="smooth-scroll font-bold">
                 India’s “Decision Entrepreneurship Coach”
               </span>{" "}
               Trained over
-              <span className="font-bold"> 1,90,000</span> Students & Business
-              Enthusiasts for <span className="font-bold">5 Years.</span>
+              <span className="smooth-scroll font-bold"> 1,90,000</span> Students & Business
+              Enthusiasts for <span className="smooth-scroll font-bold">5 Years.</span>
             </div>
 
             {/* Ratings */}
-            <div className="radius-yellow bg-custom-gray m-4 p-4 rounded-3xl text-center">
-              <div className="flex justify-center">
+            <div className="smooth-scroll radius-yellow bg-custom-gray m-4 p-4 rounded-3xl text-center">
+              <div className="smooth-scroll flex justify-center">
                 <ReactStars size={25} half={true} value={5} edit={false} />
               </div>
               <br />
-              <p>
+              <p className="smooth-scroll">
                 More than <span className="font-bold">10,3,000</span> Students &
                 Business Enthusiasts Rated My coaching style.
               </p>
@@ -55,7 +86,7 @@ const WorkSection = () => {
           </div>
           {/* Action Button */}
          <a href="https://rzp.io/l/badecisionmc">
-          <div className="lg:hidden block">
+          <div className="smooth-scroll lg:hidden block">
             <button className="flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-sm md:text-2xl rounded-2xl relative focus:border">
               Action Now with ₹299
               <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
@@ -69,10 +100,10 @@ const WorkSection = () => {
 
       {/* Why Attend Section */}
       <div className="right-section mt-10 flex flex-col items-center space-y-5">
-        <h1 className="text-3xl font-bold text-center">
+        <h1 className="smooth-scroll text-3xl font-bold text-center">
           Why attend this workshop?
         </h1>
-        <div className="flex justify-center mb-4">
+        <div className="smooth-scroll flex justify-center mb-4">
           <svg
             width="300"
             height="20"
@@ -91,11 +122,11 @@ const WorkSection = () => {
 
         {/* Benefits List */}
         <div className="radius-yellow bg-custom-brown text-xl rounded-3xl p-2">
-          <div className="flex items-center space-x-2 mt-2">
-            <div className="h-6 w-6 flex justify-center bg-green-500 rounded-full">
+          <div className="smooth-scroll flex items-center space-x-2 mt-2">
+            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
-            <h1 className="p-4">
+            <h1 className="smooth-scroll p-4">
               Learn proven strategies to{" "}
               <span className="font-bold">
                 tackle common entrepreneurial obstacles
@@ -104,36 +135,36 @@ const WorkSection = () => {
             </h1>
           </div>
 
-          <div className="flex items-center space-x-2 mt-2">
-            <div className="h-6 w-6 flex justify-center bg-green-500 rounded-full">
+          <div className="smooth-scroll flex items-center space-x-2 mt-2">
+            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
-            <h1 className="p-4">
+            <h1 className="smooth-scroll p-4">
               Gain insights into{" "}
-              <span className="font-bold">
+              <span className="smooth-scroll font-bold">
                 scaling your business sustainably
               </span>{" "}
               without compromising quality or efficiency.
             </h1>
           </div>
 
-          <div className="flex items-center space-x-2 mt-2">
-            <div className="h-6 w-6 flex justify-center bg-green-500 rounded-full">
+          <div className=" smooth-scroll flex items-center space-x-2 mt-2">
+            <div className=" smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
-            <h1 className="p-4">
+            <h1 className=" smooth-scroll p-4">
               Gain valuable knowledge to{" "}
-              <span className="font-bold">make data-driven & impactful</span>{" "}
+              <span className=" smooth-scroll font-bold">make data-driven & impactful</span>{" "}
               decisions for profit margins.
             </h1>
           </div>
 
-          <div className="flex items-center space-x-2 mt-2">
-            <div className="h-6 w-6 flex justify-center bg-green-500 rounded-full">
+          <div className="smooth-scroll flex items-center space-x-2 mt-2">
+            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
-            <h1 className="p-4">
-              <span className="font-bold">
+            <h1 className="smooth-scroll p-4">
+              <span className="smooth-scroll font-bold">
                 Boost Strategy, Boost Financial, Boost Flexibility Unlock
                 guaranteed outcomes
               </span>{" "}
@@ -145,7 +176,7 @@ const WorkSection = () => {
         {/* Action Button for Mobile */}
         <a href="https://rzp.io/l/badecisionmc" className="hidden lg:flex w-full">
         {/* <div className=""> */}
-          <button className="flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-xl md:text-2xl rounded-2xl relative focus:border">
+          <button className="smooth-scroll flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-xl md:text-2xl rounded-2xl relative focus:border">
             Action Now with ₹299
             <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
               <FontAwesomeIcon icon={faGreaterThan} />
@@ -154,7 +185,7 @@ const WorkSection = () => {
         {/* </div> */}
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

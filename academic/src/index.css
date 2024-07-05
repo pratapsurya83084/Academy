@@ -73,3 +73,25 @@ body{
   .animate-move-x-reverse {
     animation: move-x-reverse 2s infinite alternate;
   }
+
+
+  
+/* animation scroll y direction page */
+.smooth-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  -webkit-transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  -moz-transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  -ms-transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  -o-transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -o-transform: translateY(20px);
+}
+
+.animate-scroll {
+  opacity: 1;
+  transform: translateY(0);
+}

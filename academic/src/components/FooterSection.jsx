@@ -72,7 +72,7 @@ const FooterSection = () => {
   return (
     <footer>
         {/* sm:flex-row sm:justify-between */}
-      <div className='radius-yellow fixed-footer   bg-custom-gray  sm:p-0 pb- flex flex-col justify-center items-center sm:flex-row sm:justify-between'>
+      <section className='radius-yellow fixed-footer   bg-custom-gray  sm:p-0 pb- flex flex-col justify-center items-center sm:flex-row sm:justify-between'>
       <div>
         <div className='gap-2 p- md:flex flex-row text-red-700 text-2xl font-bold'>
         <h1 className='px-2 text-center'>Almost  Full</h1>
@@ -94,7 +94,7 @@ const FooterSection = () => {
           </button>
         </div>
         </a>
-      </div>
+      </section>
     </footer>
   )
 }

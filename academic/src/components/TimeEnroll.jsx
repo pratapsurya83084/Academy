@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 const initialTotalSeconds = 90;
+
 const TimeEnroll = () => {
   const [totalSeconds, setTotalSeconds] = useState(() => {
     const savedTime = localStorage.getItem("countdownTotalSeconds");
@@ -23,7 +24,7 @@ const TimeEnroll = () => {
   }, []);
 
   // Calculate minutes and seconds
-  // const minutes = Math.floor(totalSeconds / 90);
+  const minutes = Math.floor(totalSeconds / 90);
   const seconds = totalSeconds % 90;
 
   // current day
@@ -40,7 +41,7 @@ const TimeEnroll = () => {
       // If the current date is past the target date, update the target date to the next 15 days increment
       while (today > targetDate) {
         targetDate.setDate(targetDate.getDate() + 15);
-      }
+       }
 
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
       const formattedDate = targetDate.toLocaleDateString(undefined, options);
@@ -70,7 +71,7 @@ const TimeEnroll = () => {
       const intervalId = setInterval(updateDateDisplay, 15 * 24 * 60 * 60 * 1000);
 
       // Clear the timeout and return the interval cleanup function
-      clearTimeout(timeoutId);
+      // clearTimeout(timeoutId);
       return () => clearInterval(intervalId);
     }, timeToNextUpdate);
 
@@ -90,8 +91,10 @@ const TimeEnroll = () => {
           <h2 className=" font-bold">Your Basic English and Me</h2>
         </div>
         <div>
-          <h1 className="text-red-500 font-bold p-2">
-            STARTS ON {displayDate} (8:00 AM)
+          <h1 className="text-red-500 font-bold p-2 ">
+         
+            
+            STARTS ON  {displayDate} (8:00 AM)
           </h1>
         </div>
         <div>
@@ -108,7 +111,7 @@ const TimeEnroll = () => {
 
       <div className="radius-yellow font-bold h-32 w-32 py-7 mt-10 text-center bg-custom-brown rounded-2xl">
         <span className="font-bold text-2xl ">
-          {String(seconds).padStart(2, "0")}
+          {/* {String(seconds).padStart(2, "0")} */}
         </span>{" "}
         <br />
         SECONDS

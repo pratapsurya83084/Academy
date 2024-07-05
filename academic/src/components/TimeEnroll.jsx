@@ -111,7 +111,7 @@ const TimeEnroll = () => {
 
       <div className="radius-yellow font-bold h-32 w-32 py-7 mt-10 text-center bg-custom-brown rounded-2xl">
         <span className="font-bold text-2xl ">
-          {/* {String(seconds).padStart(2, "0")} */}
+          {String(seconds).padStart(2, "0")}
         </span>{" "}
         <br />
         SECONDS

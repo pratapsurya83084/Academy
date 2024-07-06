@@ -374,7 +374,7 @@ const FaqSection = () => {
                   }`}
                 >
                   <p className="text-xl">
-                    The seminar typically lasts [insert duration], including
+                    The seminar typically lasts 4 Hours, including
                     breaks and networking sessions, to ensure participants have
                     ample time to absorb the content and engage with fellow
                     attendees.

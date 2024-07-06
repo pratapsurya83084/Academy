@@ -92,7 +92,7 @@ const BuisnessChange = () => {
                     </div>
                     <span className="smooth-scroll p-1 sm:p-4 text-xl md:text-2xl">
                       Streamline operations for enhanced <b> efficiency</b> and{" "}
-                      <b> productivity.</b>
+                      <b> productivity</b>
                     </span>
                   </li>
 
@@ -114,7 +114,7 @@ const BuisnessChange = () => {
                     </div>
                     <span className="smooth-scroll p-1 sm:p-4 text-xl md:text-2xl">
                       Elevate decision-making for <b> strategic growth</b> and{" "}
-                      <b> profitability.</b>
+                      <b> profitability</b>
                     </span>
                   </li>
                   <li className="smooth-scroll flex items-center space-x-2">
@@ -135,7 +135,7 @@ const BuisnessChange = () => {
                     </div>
                     <span className="smooth-scroll p-1 sm:p-4 text-xl md:text-2xl">
                       Cultivate a culture of <b>innovation</b> and{" "}
-                      <b>adaptability</b> to thrive in <b>dynamic markets.</b>{" "}
+                      <b>adaptability</b> to thrive in <b>dynamic markets</b>{" "}
                     </span>
                   </li>
 
@@ -157,7 +157,7 @@ const BuisnessChange = () => {
                     </div>
                     <span className="smooth-scroll p-1 sm:p-4 text-xl md:text-2xl">
                       Propel your business towards <b>sustainable success</b>{" "}
-                      and <b>competitive advantage.</b>{" "}
+                      and <b>competitive advantage</b>{" "}
                     </span>
                   </li>
                 </ul>

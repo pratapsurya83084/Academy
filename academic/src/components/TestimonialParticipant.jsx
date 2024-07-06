@@ -136,11 +136,13 @@ const TestimonialParticipant = () => {
               alt=""
             />
             <p className="text-center">
-              I have had sleepless nights thinking, it will be great if I knew
-              how to solve all my business-related problems . This program feels
-              like a perfect destination to answer all my questions. Identifying
-              department-wise goals and action points blew my mind. Pumped up to
-              see results on June 30, 2023.
+            The Bishop Adhikari course exceeded
+             my expectations. The blend of theory
+              and practical application was perfect.
+               I have seen significant positive changes
+                in my mindset and approach to life since 
+                completing the course. It's an experience 
+            I would recommend to everyone.
             </p>
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">

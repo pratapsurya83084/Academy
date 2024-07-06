@@ -69,7 +69,7 @@ const WorkSection = () => {
               </span>{" "}
               Trained over
               <span className="smooth-scroll font-bold"> 1,90,000</span> Students & Business
-              Enthusiasts for <span className="smooth-scroll font-bold">5 Years.</span>
+              Enthusiasts for <span className="smooth-scroll font-bold">5 Years</span>
             </div>
 
             {/* Ratings */}
@@ -80,7 +80,7 @@ const WorkSection = () => {
               <br />
               <p className="smooth-scroll">
                 More than <span className="font-bold">10,3,000</span> Students &
-                Business Enthusiasts Rated My coaching style.
+                Business Enthusiasts Rated My coaching style
               </p>
             </div>
           </div>
@@ -131,7 +131,7 @@ const WorkSection = () => {
               <span className="font-bold">
                 tackle common entrepreneurial obstacles
               </span>{" "}
-              and drive your business forward.
+              and drive your business forward
             </h1>
           </div>
 
@@ -144,7 +144,7 @@ const WorkSection = () => {
               <span className="smooth-scroll font-bold">
                 scaling your business sustainably
               </span>{" "}
-              without compromising quality or efficiency.
+              without compromising quality or efficiency
             </h1>
           </div>
 
@@ -155,7 +155,7 @@ const WorkSection = () => {
             <h1 className=" smooth-scroll p-4">
               Gain valuable knowledge to{" "}
               <span className=" smooth-scroll font-bold">make data-driven & impactful</span>{" "}
-              decisions for profit margins.
+              decisions for profit margins
             </h1>
           </div>
 
@@ -168,7 +168,7 @@ const WorkSection = () => {
                 Boost Strategy, Boost Financial, Boost Flexibility Unlock
                 guaranteed outcomes
               </span>{" "}
-              with the seminar's actionable steps.
+              with the seminar's actionable steps
             </h1>
           </div>
         </div>

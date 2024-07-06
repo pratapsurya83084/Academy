@@ -107,7 +107,7 @@ const ThreeTestimonial = () => {
                     alt=""
                   />
                   <h5 className=" p-3 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">
-                    Devine Corporation.
+                    Devine Corporation
                   </h5>
                   <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                     <p className="radius-yellow bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
@@ -122,10 +122,10 @@ const ThreeTestimonial = () => {
               <div className="smooth-scroll p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">
                 <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative flex flex-col items-center">
                   <h2 className=" tracking-widest title-font font-medium text-gray-400 mb-1 text-yellow-200 text-2xl">
-                    3 Coroe in
+                    3 Corer 
                   </h2>
                   <h1 className=" title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
-                    (just 6 Months){" "}
+                    (in just 6 Months){" "}
                   </h1>
                   <img className="h-56" src="\self_growth_img.png" alt="" />
                   <h5 className=" p-3 text-2xl flex flex-col justify-center items-center text-center font-bold tracking-tight text-gray-900 dark:text-white">

@@ -128,7 +128,8 @@ const Newsfeature = () => {
               <div className="w-1/3 flex justify-center">
                 <img
                   className="smooth-scroll  h-12 md:h-18 max-w-full"
-                  src="/uae_img.avif"
+                  src="\the_uae_news_channel_today.avif"
+                  
                   alt="Slide 9"
                />
               </div>

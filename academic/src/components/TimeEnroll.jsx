@@ -40,7 +40,7 @@ const TimeEnroll = () => {
 
       // If the current date is past the target date, update the target date to the next 15 days increment
       while (today > targetDate) {
-        targetDate.setDate(targetDate.getDate() + 15);
+        targetDate.setDate(targetDate.getDate() + 14);
        }
 
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -58,7 +58,7 @@ const TimeEnroll = () => {
 
     // Increment the nextUpdateDate by 15 days until it's in the future
     while (now > nextUpdateDate) {
-      nextUpdateDate.setDate(nextUpdateDate.getDate() + 15);
+      nextUpdateDate.setDate(nextUpdateDate.getDate() + 14);
     }
 
     const timeToNextUpdate = nextUpdateDate - now;
@@ -68,7 +68,7 @@ const TimeEnroll = () => {
       updateDateDisplay();
 
       // Set an interval to update the date display every 15 days
-      const intervalId = setInterval(updateDateDisplay, 15 * 24 * 60 * 60 * 1000);
+      const intervalId = setInterval(updateDateDisplay, 14 * 24 * 60 * 60 * 1000);
 
       // Clear the timeout and return the interval cleanup function
       // clearTimeout(timeoutId);

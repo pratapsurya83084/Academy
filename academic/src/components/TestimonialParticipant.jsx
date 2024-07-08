@@ -76,7 +76,7 @@ const TestimonialParticipant = () => {
 
             <p className="mb-4 mx-2 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200"> Rohan Mehta, India </b>
+                <b className="smooth-scroll text-yellow-200"> Rohan Mehta , India </b>
                 <h5 className="smooth-scroll"> Marketing Director at Reliance Industries.</h5>
               </span>
             </p>
@@ -99,7 +99,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mb-4 px-4 mx-2  radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Olivia Watson, England</b>
+                <b className="smooth-scroll text-yellow-200">Olivia Watson , England</b>
                 <h5 className="smooth-scroll"> Senior Manager at GreenTech Solutions</h5>
               </span>
             </p>
@@ -122,7 +122,7 @@ const TestimonialParticipant = () => {
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Aisha Al Mansouri, UAE </b>
+                <b className="smooth-scroll text-yellow-200">Aisha Al Mansouri , UAE </b>
                 <h5 className="smooth-scroll"> Project Manager at Emirates Group</h5>
               </span>
             </p>
@@ -147,7 +147,7 @@ const TestimonialParticipant = () => {
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Anna Ivanova, Russia </b>
+                <b className="smooth-scroll text-yellow-200">Anna Ivanova , Russia </b>
                 <h5 className="smooth-scroll">HR Specialist at Gazprom</h5>
               </span>
             </p>
@@ -170,7 +170,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mb-3 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200"> Max Muller, Germany</b>
+                <b className="smooth-scroll text-yellow-200"> Max Muller , Germany</b>
                 <h5 className="smooth-scroll"> Software Engineer at SAP</h5>
               </span>
             </p>
@@ -193,7 +193,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mx-2 px-1 mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Priya Patel, India</b>
+                <b className="smooth-scroll text-yellow-200">Priya Patel , India</b>
                 <h5 className="smooth-scroll"> Financial Analyst at Tata Consultancy Services</h5>
               </span>
             </p>
@@ -216,7 +216,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mb-4 radius-yellow rounded-xl mt-5 p-3 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">James Smith, England</b>
+                <b className="smooth-scroll text-yellow-200">James Smith , England</b>
                 <h5 className="smooth-scroll"> Director at Global Trade Corp</h5>
               </span>
             </p>
@@ -240,7 +240,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Elena Volkova, Russia</b>
+                <b className="smooth-scroll text-yellow-200">Elena Volkova , Russia</b>
                 <h5 className="smooth-scroll"> Chief Financial Officer at Rosneft</h5>
               </span>
             </p>
@@ -263,7 +263,7 @@ const TestimonialParticipant = () => {
 
             <p className="bg-custom-gray mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="smooth-scroll text-yellow-200">Eric Wu ,USA</b>
+                <b className="smooth-scroll text-yellow-200">Eric Wu , USA</b>
                 <h5 className="smooth-scroll"> Chief Technology Officer at Tech Innovations</h5>
               </span>
             </p>

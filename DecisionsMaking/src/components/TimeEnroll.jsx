@@ -24,7 +24,7 @@ const TimeEnroll = () => {
   }, []);
 
   // Calculate minutes and seconds
-  const minutes = Math.floor(totalSeconds / 90);
+  // const minutes = Math.floor(totalSeconds / 90);
   const seconds = totalSeconds % 90;
 
   // current day
@@ -91,7 +91,7 @@ const TimeEnroll = () => {
           <h2 className=" font-bold">Your Basic English and Me</h2>
         </div>
         <div>
-          <h1 className="text-red-500 font-bold p-2 ">
+          <h1 className="text-red-500 font-bold p-2  ">
          
             
             STARTS ON  {displayDate} (8:00 AM)

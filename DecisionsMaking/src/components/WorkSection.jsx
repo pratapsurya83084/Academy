@@ -41,10 +41,10 @@ const WorkSection = () => {
       {/* Left Section - Image and Text */}
       {/* lg:w-4/5 */}
       <div className=" mx-auto  items-center justify-center lg:justify-between">
-        {/* mb-10 */}
-        <div className=" w-full  lg:ml-[250px] lg:w-auto xl:ml-10  lg:mb-0">
+        {/* mb-10  lg:ml-[250px] xl:ml-10*/}
+        <div className=" w-full  lg:w-auto  flex justify-center lg:mb-0">
           {/* overflow-hidden */}
-          <div className="smooth-scroll workshop-left-section lg:h-[400px] lg:w-[500px]  relative">
+          <div className="smooth-scroll workshop-left-section lg:h-[400px] lg:w-[500px]   relative">
             <h1 className="text-black animate-move-x-reverse mt-1  sm:ml-5 text-4xl sm:text-5xl absolute right-40 left-10 sm:right-96 md:right-96 xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:text-6xl lg:ml-2 font-bold">
               Bishop
             </h1>
@@ -123,8 +123,8 @@ const WorkSection = () => {
         {/* Benefits List */}
         <div className="radius-yellow bg-custom-brown text-xl rounded-3xl p-2">
           <div className="smooth-scroll flex items-center space-x-2 mt-2">
-            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
-              <CheckIcon className="h-4 w-4 text-white" />
+            <div className="smooth-scroll h-5  w-5 md:h-5 md:w-5 lg:h-6 lg:w-7 flex justify-center bg-green-500 rounded-full">
+              <CheckIcon className=" text-white" />
             </div>
             <h1 className="smooth-scroll p-4">
               Learn proven strategies to{" "}
@@ -136,8 +136,8 @@ const WorkSection = () => {
           </div>
 
           <div className="smooth-scroll flex items-center space-x-2 mt-2">
-            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
-              <CheckIcon className="h-4 w-4 text-white" />
+            <div className="smooth-scroll h-5  w-5 md:h-5 md:w-5 lg:h-6 lg:w-7 flex justify-center bg-green-500 rounded-full">
+              <CheckIcon className=" text-white" />
             </div>
             <h1 className="smooth-scroll p-4">
               Gain insights into{" "}
@@ -149,8 +149,8 @@ const WorkSection = () => {
           </div>
 
           <div className=" smooth-scroll flex items-center space-x-2 mt-2">
-            <div className=" smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
-              <CheckIcon className="h-4 w-4 text-white" />
+            <div className=" smooth-scroll h-5  w-5 md:h-5 md:w-5 lg:h-6 lg:w-7 flex justify-center bg-green-500 rounded-full">
+              <CheckIcon className=" text-white" />
             </div>
             <h1 className=" smooth-scroll p-4">
               Gain valuable knowledge to{" "}
@@ -160,8 +160,8 @@ const WorkSection = () => {
           </div>
 
           <div className="smooth-scroll flex items-center space-x-2 mt-2">
-            <div className="smooth-scroll h-6 w-6 flex justify-center bg-green-500 rounded-full">
-              <CheckIcon className="h-4 w-4 text-white" />
+            <div className="smooth-scroll h-5  w-5 md:h-5 md:w-5 lg:h-6 lg:w-7 flex justify-center bg-green-500 rounded-full">
+              <CheckIcon className=" text-white" />
             </div>
             <h1 className="smooth-scroll p-4">
               <span className="smooth-scroll font-bold">

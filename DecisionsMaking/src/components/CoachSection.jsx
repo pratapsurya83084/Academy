@@ -73,7 +73,7 @@ const CoachSection = () => {
             </div>
           </div>
           <div className=" hidden  md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
-            {/* <h1 className="text-2xl font-bold text-center">Decision Business Coach</h1> */}
+           
             <img
               className="smooth-scroll h-40 md:ml-40 lg:ml-2 bg-yellow-300 rounded-3xl p-2"
               src="\buisness_coach_icon.png"
@@ -83,8 +83,8 @@ const CoachSection = () => {
         </div>
 
         {/* cards */}
-         {/* cards */}
-      <div className="smooth-scroll  justify-around flex-wrap  grid grid-cols sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full  mt-8 gap-5  md:gap-x-   lg:gap-x-29 xl-gap-x-10 2xl:ml-[75px]">
+         {/* cards  2xl:ml-[75px]  ,justify-around  flex-wrap  grid grid-cols justify-center items-center sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full  mt-8 gap-5  md:gap-x-   lg:gap-x-29 xl-gap-x-10*/}
+      <div className="smooth-scroll flex flex-wrap justify-center  mt-8">
         {/* cards1 */}
         <div className="radius-yellow flex flex-row m-2 items-center w-[300px] h-[170px]  bg-custom-brown text-white rounded-2xl p-4   min-w-[200px]">
           <div>

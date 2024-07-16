@@ -40,7 +40,7 @@ const HeaderText = () => {
         <h2 className="smooth-scroll text-3xl md:text-4xl font-bold mb-4">
           Transform Your Business into a 
           <span className="px-2">
-            <b className="smooth-scroll text-yellow-200 text-center">Crore-Earning</b>
+            <b className="smooth-scroll text-yellow-200 text-center">Crore-earning</b>
           </span> <br />
           Enterprise
         </h2>

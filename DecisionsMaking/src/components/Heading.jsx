@@ -31,7 +31,7 @@ const Heading = () => {
   }, []);
 
   return (
-    <sectionn 
+    <section 
     ref={sectionRef}
     className="relative flex items-center justify-center ">
       {/* Blue Image */}
@@ -52,7 +52,7 @@ const Heading = () => {
       </div>
       
       
-    </sectionn>
+    </section>
   );
 };
 

@@ -41,7 +41,10 @@ const SeminarSection = () => {
         ref={sectionRef}
       className="  radius-yellow bg-custom-brown flex flex-col justify-center rounded-3xl items-center">
         {/* section 20 */}
-        <h1 className="smooth-scroll mt-5 p-4  flex justify-center text-center text-2xl py-6 font-bold ">Who Will Benefit Most from This Seminar?</h1>
+        <h1 className="smooth-scroll mt-5 p-4  flex justify-center 
+        text-center text-2xl py-6 font-bold ">
+          Who Will Benefit Most from This Seminar?
+          </h1>
         <div className="smooth-scroll flex justify-center mb-4">
         <svg width="300" height="30" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M5 15 Q 50 0, 95 15" stroke="yellow" strokeWidth="5" fill="none" />
@@ -65,7 +68,7 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-3 md:p-3">
-          Owners of small enterprises seek to make informed decisions that lead to <br />
+          Owners of small enterprises who seek to make informed decisions that lead to <br />
            increased profitability and scalability
           </p>
         </div>

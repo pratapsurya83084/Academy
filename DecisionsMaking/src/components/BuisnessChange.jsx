@@ -43,7 +43,9 @@ const BuisnessChange = () => {
         <div className="flex flex-col lg:flex-row lg:gap-14 justify-center lg:space-y-0 rounded-lg">
           <div className="flex flex-col items-center w-full space-y-4 mx-auto lg:mx-0">
             <h2 className="smooth-scroll text-3xl mt-10 font-bold text-center text-white mb-4">
-              How Will Your Business Transform with Decision?
+              How will your business  transform with advanced 
+              decision making skills ?
+
             </h2>
             <div className="smooth-scroll flex justify-center mb-4">
               <svg

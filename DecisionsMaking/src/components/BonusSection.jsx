@@ -84,7 +84,8 @@ const BonusSection = () => {
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #3</h1>
           <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹954/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-          6 Unlocking the Secrets of Financial Success for Entrepreneurs  
+         {/* Unlocking the 6 secrets to Financial */}
+         Unlocking the 6 secrets to Financial Success for Entrepreneurs  
           </h5>
         </div>
 
@@ -130,7 +131,8 @@ const BonusSection = () => {
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #8</h1>
           <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹1021/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-          15 Networking Ninja Mastering the Art of Building Professional Relationships for Business Success
+          {/* 15 Networking Ninja Mastering the Art */}
+          15 Networking Ninja Techniques for Mastering of Building Professional Relationships for Business Success
           </h5>
         </div>
 

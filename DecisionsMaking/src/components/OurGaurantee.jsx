@@ -65,9 +65,7 @@ const OurGaurantee = () => {
             Our Guarantee
           </h2>
 
-        
-
-
+      
 
 <div className="md:flex flex-row justify-center items-center gap-20">
   <div className="px-3">
@@ -75,9 +73,9 @@ const OurGaurantee = () => {
       Our Guarantee
     </h1>
     <p className="smooth-scroll md:text-xl p-2  lg:text-2xl">
-      Take advantage of this incredible offer now for only Rs 299 , with a money-back 
-      guarantee included. Enroll today , attend our seminar , and if you're not satisfied 
-      for any reason , just send us an email , and we'll refund your entire payment—no 
+      Take advantage of this incredible offer now for only Rs 299, with a money-back 
+      guarantee included. Enroll today, attend our seminar and if you're not satisfied 
+      for any reason, just send us an email and we'll refund your entire payment—no 
       questions asked!
     </p>
   </div>

@@ -169,7 +169,7 @@ const BonusSection = () => {
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #12</h1>
           <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹549/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-          10 Mindfulness Techniques for Entrepreneurs : Cultivating Clarity , Focus , and Balance in Your Business and Life
+          10 Mindfulness Techniques for Entrepreneurs : Cultivating Clarity, Focus and Balance in Your Business and Life
           </h5>
         </div>
 

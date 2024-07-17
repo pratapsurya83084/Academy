@@ -72,7 +72,7 @@ const CoachSection = () => {
               </p>
             </div>
           </div>
-          <div className=" hidden  md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
+          <div className=" hidden  md:flex md:mt-0 md:ml-   items-center justify-center md:justify-start">
            
             <img
               className="smooth-scroll h-40 md:ml-40 lg:ml-2 bg-yellow-300 rounded-3xl p-2"

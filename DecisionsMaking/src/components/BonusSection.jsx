@@ -63,7 +63,7 @@ const BonusSection = () => {
 
         <div className="smooth-scroll  max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #1</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹632/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹632/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
             An 8-Step-by-Step Guide to Making Confident Business Decisions
           </h5>
@@ -72,7 +72,7 @@ const BonusSection = () => {
         {/* card 2 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #2</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹549/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹549/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           10 Essential Strategies for Building and Scaling Your Business
 
@@ -82,7 +82,7 @@ const BonusSection = () => {
         {/* card 3 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #3</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹954/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹954/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
          {/* Unlocking the 6 secrets to Financial */}
          Unlocking the 6 secrets to Financial Success for Entrepreneurs  
@@ -92,7 +92,7 @@ const BonusSection = () => {
         {/* card 4 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #4</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹1021/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹1021/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           15 Techniques to Maximize Efficiency and Achieve More in Less Time
           </h5>
@@ -101,7 +101,7 @@ const BonusSection = () => {
         {/* card 5 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #5</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹954/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹954/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           18 Strategies to Skyrocket Your Business Growth and Attract Your Ideal Customers
 
@@ -111,7 +111,7 @@ const BonusSection = () => {
         {/* card 6 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #6</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹632/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹632/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           2 Best E-book for Becoming a Visionary Leader in Your Industry
           </h5>
@@ -120,7 +120,7 @@ const BonusSection = () => {
        {/* card 7 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #7</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at:₹ 549/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹ 549/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           How to Build Wealth and Create Financial Stability for Life
           </h5>
@@ -129,7 +129,7 @@ const BonusSection = () => {
         {/* card 8 */}
         <div className="smooth-scroll smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #8</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹1021/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹1021/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           {/* 15 Networking Ninja Mastering the Art */}
           15 Networking Ninja Techniques for Mastering of Building Professional Relationships for Business Success
@@ -139,7 +139,7 @@ const BonusSection = () => {
         {/* card 9 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #9</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹ 632/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹ 632/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           7 Strategies For Delighting Your Customers and Building Loyalty
           </h5>
@@ -149,7 +149,7 @@ const BonusSection = () => {
            {/* card 10 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #10</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at:₹ 954/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹ 954/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           6 Strategies Leveraging Social Platforms to Boost Your Brand and Drive Sales
           </h5>
@@ -158,7 +158,7 @@ const BonusSection = () => {
         {/* card 11 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #11</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹1021/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹1021/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           9 Business Growth Hacks Insider Tips and Tricks for Accelerating Your Company's Expansion
           </h5>
@@ -167,9 +167,9 @@ const BonusSection = () => {
         {/* card 12 */}
         <div className="smooth-scroll max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
           <h1 className="smooth-scroll text-center  mb-2">SOLUTION COURSE #12</h1>
-          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹549/-</h2>
+          <h2 className="smooth-scroll text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at : ₹549/-</h2>
           <h5 className="smooth-scroll text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-          10 Mindfulness Techniques for Entrepreneurs: Cultivating Clarity, Focus, and Balance in Your Business and Life
+          10 Mindfulness Techniques for Entrepreneurs : Cultivating Clarity , Focus , and Balance in Your Business and Life
           </h5>
         </div>
 

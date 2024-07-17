@@ -70,14 +70,14 @@ const TestimonialParticipant = () => {
               I am immensely grateful for the Bishop Adhikari course. The
               teachings have helped me navigate life's challenges with more
               grace and understanding. The instructors were knowledgeable and
-              compassionate, making the entire experience enriching and
+              compassionate , making the entire experience enriching and
               impactful. This course has truly been a blessing.
             </p>
 
             <p className="mb-4 mx-2 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
                 <b className="smooth-scroll text-yellow-200"> Rohan Mehta , India </b>
-                <h5 className="smooth-scroll"> Marketing Director at Reliance Industries.</h5>
+                <h5 className="smooth-scroll"> Marketing Director at Reliance Industries</h5>
               </span>
             </p>
           </div>
@@ -114,7 +114,7 @@ const TestimonialParticipant = () => {
             />
             <p className="text-center">
               Taking the Bishop Adhikari course was one of the best decisions I
-              have made. The content was enlightening, and the interactive
+              have made. The content was enlightening , and the interactive
               sessions allowed for deep personal reflection. The sense of
               community and support was unparalleled. I feel more grounded and
               connected to my purpose.
@@ -209,7 +209,7 @@ const TestimonialParticipant = () => {
             <p className="text-center">
               The Bishop Adhikari course provided a unique and powerful learning
               experience. The insights and teachings have helped me to better
-              understand myself and my purpose. The course was well-organized,
+              understand myself and my purpose. The course was well-organized ,
               and the community aspect added a wonderful layer of support and
               connection.
             </p>
@@ -234,7 +234,7 @@ const TestimonialParticipant = () => {
               self-discovery and empowerment. The comprehensive curriculum and
               supportive community helped me gain new perspectives on both
               personal and professional challenges. This experience has been
-              invaluable, and I highly recommend it to anyone looking to make
+              invaluable , and I highly recommend it to anyone looking to make
               meaningful changes in their life.
             </p>
 

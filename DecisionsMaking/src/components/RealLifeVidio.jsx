@@ -36,8 +36,8 @@ const RealLifeVidio = () => {
     className="px-4 py-10 bg-gray-100">
       <div className="text-center mb-8">
         <h1 className="smooth-scroll text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-        Discover real-life business enthusiasts who transform straight from
-        those  who have transformed straight after attending my coaching
+        Discover real-life business enthusiasts who have transformed 
+         straight after attending my coaching
           {/* Discover real-life business enthusiasts who transform straight from
           those who attended my coaching */}
 

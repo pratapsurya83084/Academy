@@ -82,13 +82,13 @@ const TimeEnroll = () => {
     <div className="container mx-auto flex flex-col items-center justify-center h-full">
       <div className="text-center">
         <div>
-          <h2 className=" font-bold p-2">"Discover what awaits for you"</h2>
+          <h2 className=" font-bold p-2">"Discover what awaits  you"</h2>
         </div>
         <div>
           <h1 className=" font-bold p-2">Enrolling Going on</h1>
         </div>
         <div>
-          <h2 className=" font-bold">Your Basic English and Me</h2>
+          <h2 className=" font-bold">Your Understanding of Basic English and Me</h2>
         </div>
         <div>
           <h1 className="text-red-500 font-bold p-2  ">

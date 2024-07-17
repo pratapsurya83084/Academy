@@ -68,7 +68,7 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-3 md:p-3">
-          Owners of small enterprises who seek to make informed decisions that lead to <br />
+          Owners of small enterprises who seek to make informed decisions that leads to <br />
            increased profitability and scalability
           </p>
         </div>

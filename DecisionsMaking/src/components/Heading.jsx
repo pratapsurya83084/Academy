@@ -41,7 +41,9 @@ const Heading = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="pl-8 relative bottom-0 top- sm:bottom-4" width="70" height="50" viewBox="0 0 26 28" fill="none"><path d="M0.962914 27.9871L0.962915 0.0613831L25.1473 14.0243L0.962914 27.9871Z" fill="#0067DE"></path></svg>
       </div>
       <div className="smooth-scroll sm:text-xl  radius-yellow font-bold bg-custom-brown md:text-2xl text-center text-white p-3 m-10 rounded-3xl">
-        Student & Entrepreneurship Decision Revolution Seminar <br />
+        Student & Entrepreneurship decision revolutionary seminar
+         {/* Decision Revolution Seminar */}
+          <br />
        <b className="smooth-scroll text-yellow-200"> 4-Hour</b> On Online Mode
       </div>
       {/* Yellow Image */}

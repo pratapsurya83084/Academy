@@ -45,7 +45,8 @@ const HeaderText = () => {
           Enterprise
         </h2>
         <p className="smooth-scroll text-gray-700 text-xl font-bold">
-          Say Goodbye to Overwhelm and Confusion of Your Future
+        Say goodbye to overwhelm and confusion about your future
+          {/* Say Goodbye to Overwhelm and Confusion of Your Future */}
         </p>
       </div>
     </section>

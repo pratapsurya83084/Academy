@@ -165,7 +165,7 @@ const WorkSection = () => {
             </div>
             <h1 className="smooth-scroll p-4">
               <span className="smooth-scroll font-bold">
-                Boost Strategy, Boost Financial , Boost Flexibility Unlock
+                Boost Strategy, Boost Financial, Boost Flexibility Unlock
                 guaranteed outcomes
               </span>{" "}
               with the seminar's actionable steps
